@@ -1,11 +1,12 @@
-import React from "react";
 import { Button, Navbar, TextInput } from "flowbite-react";
+import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaMoon } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
   const path = useLocation().pathname;
+
   return (
     <Navbar className="border-b-2">
       <Link
@@ -29,7 +30,7 @@ export default function Header() {
         <AiOutlineSearch />
       </Button>
 
-      <div>
+      <div className="flex gap-2 md:order-2">
         <Button className="hidden w-12 h-10 sm:inline" color="gray" pill>
           <FaMoon />
         </Button>
