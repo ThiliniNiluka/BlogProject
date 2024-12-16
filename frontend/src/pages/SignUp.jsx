@@ -23,7 +23,7 @@ export default function SignUp() {
         <div className="flex-1">
           <form className="flex flex-col w-full gap-4"> 
             <div>
-              <Label value="Your username" />
+              <Label value="User Name" />
               <TextInput 
                type="text"
                placeholder="Username"
@@ -31,7 +31,7 @@ export default function SignUp() {
               />
             </div>
             <div>
-              <Label value="Your email" />
+              <Label value="Email" />
               <TextInput 
                type="text"
                placeholder="name@company.com"
@@ -39,7 +39,7 @@ export default function SignUp() {
               />
             </div>
             <div>
-              <Label value="Your password" />
+              <Label value="Password" />
               <TextInput 
                type="text"
                placeholder="Password"
